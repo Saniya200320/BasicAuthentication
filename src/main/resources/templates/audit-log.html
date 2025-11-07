@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Audit Logs</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+    <h2>Audit Logs</h2>
+    <table border="1">
+        <tr>
+            <th>Username</th>
+            <th>Action</th>
+            <th>Timestamp</th>
+        </tr>
+        <tr th:each="log : ${logs}">
+            <td th:text="${log.username}"></td>
+            <td th:text="${log.action}"></td>
+            <td th:text="${log.timestamp}"></td>
+        </tr>
+    </table>
+
+    <a th:href="@{/auth/home}">Back to Home</a>
+</div>
+</body>
+</html>

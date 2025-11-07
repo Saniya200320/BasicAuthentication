@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Login</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+    <h2>Login</h2>
+
+    <!-- Show invalid credentials error -->
+    <div th:if="${param.error}" class="message error">
+        Invalid username or password.
+    </div>
+
+    <!-- Show logout message -->
+    <div th:if="${param.logout}" class="message">
+        You have been logged out successfully.
+    </div>
+
+    <!-- Show registration success message -->
+    <div th:if="${param.registered}" class="message">
+        Registration successful. Please login.
+    </div>
+
+    <!-- Show account locked message -->
+    <div th:if="${param.locked}" class="message error">
+        Your account has been locked due to 3 failed login attempts.
+    </div>
+
+    <form th:action="@{/auth/login}" method="post">
+        <input type="text" name="username" placeholder="Username" required />
+        <input type="password" name="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a th:href="@{/auth/register}">Register</a></p>
+</div>
+</body>
+</html>
