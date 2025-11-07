@@ -18,17 +18,18 @@ roles table: Holds role names (e.g., ADMIN, USER) for access control.
 user_roles table: A join table that creates a many-to-many relationship between users and roles.
 audit_logs table: Tracks user actions (like login/logout) with timestamps for security and compliance.
 
-![user](https://github.com/user-attachments/assets/9374e9ad-f591-4490-9b0d-38a13d67fd1f)
-![roles](https://github.com/user-attachments/assets/9c8a42be-1f6e-40fd-a495-5ff0988c9b03)
-![audit_logs](https://github.com/user-attachments/assets/4432cf02-b736-4f88-ba86-a61dbee18e94)
-![user description](https://github.com/user-attachments/assets/d448936e-1405-4041-bced-354714f7f8f7)
-![audit_logs,roles description](https://github.com/user-attachments/assets/0b25dee5-c1cd-4b58-8811-dcd1267d36d7)
-![output1](https://github.com/user-attachments/assets/dbefa866-1b2f-4134-851a-6dee3090803e)
-![output2](https://github.com/user-attachments/assets/7a4ba472-e735-4972-8ef8-e3c1f168f56e)
-![output3](https://github.com/user-attachments/assets/8a821249-5b35-4700-938f-ed7d537041e4)
-![output4](https://github.com/user-attachments/assets/f0ffdc8f-2a77-47e1-81ed-e55949589089)
+<img width="838" height="359" alt="{82963555-6C9D-4FCF-9B56-74347AD9B58A}" src="https://github.com/user-attachments/assets/0a988993-7ea8-4266-8c3c-8589d3f8a623" />
+<img width="206" height="236" alt="{090C1287-08E2-4ADA-BD59-1102E338706F}" src="https://github.com/user-attachments/assets/cd49c6b0-aa32-47c3-915b-e8d957292786" />
+<img width="613" height="335" alt="{960464A5-C206-4062-8856-28983BE7AC5A}" src="https://github.com/user-attachments/assets/f656bbbc-b581-442a-ba2d-ba081ecc7202" />
+<img width="592" height="290" alt="{B76693E2-19F0-4E6A-92BC-3726948D8506}" src="https://github.com/user-attachments/assets/d19d6c19-47d1-42ef-8477-90f089848aca" />
+<img width="304" height="159" alt="{6008FFFA-30C2-45E9-B17C-DD9617D919B8}" src="https://github.com/user-attachments/assets/0c37fd01-27b4-4aa0-b115-b58abccfcdf4" />
+<img width="298" height="254" alt="{535DFBDE-D8DB-494C-BFC7-63FC03A17700}" src="https://github.com/user-attachments/assets/e0555756-5246-419d-b5ce-74f8f752f171" />
+
 <img width="269" height="126" alt="{6EB63EDD-06E1-41E8-9BE6-0670C0F27DAA}" src="https://github.com/user-attachments/assets/8bc26100-352b-421b-9717-5d148369737d" />
 <img width="272" height="215" alt="{36E1C226-2D23-447E-BF6E-1DBCFD851847}" src="https://github.com/user-attachments/assets/a851be62-4fa8-4881-9841-253834e2ef3c" />
+<img width="278" height="233" alt="{AE72E9C5-ED1B-44C7-B9B1-483DFB8DC74B}" src="https://github.com/user-attachments/assets/51fefbfd-55f4-4832-be78-ecbdb9df3969" />
+
+
 
 
 
